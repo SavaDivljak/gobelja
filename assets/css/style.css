@@ -1,0 +1,647 @@
+*{
+	margin: 0px;
+	padding: 0px;
+	box-sizing: border-box;
+	font-family: 'PT Sans', sans-serif;
+}
+.pozadina, header, footer{
+	width: 100%;
+}
+.omot1 p, .uvod p{
+	text-align: center;
+}
+.uvod{
+	height: 600px;
+	width: 100%;
+	display: flex;
+	align-items: center;
+	justify-content: space-around;
+}
+.omot1{
+	height: 600px;
+	width: 100%;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	padding-right: 2%;
+}
+.pozadina{
+	height: 660px;
+	background-repeat: no-repeat;
+	background-blend-mode: multiply;
+	display: flex;
+	align-items: center;
+	flex-direction: column;
+	justify-content: center;
+}
+.pocetna{
+	background: url("pocetna.jpg") no-repeat;
+	background-size: cover;
+	background-attachment: fixed;
+	background-color: #464444;
+}
+.karijera{
+	background: url("karijera.jpg") no-repeat;
+	background-size: cover;
+	background-attachment: fixed;
+	background-color: #464444;
+}
+.statistika{
+	background: url("statistika.jpg") no-repeat;
+	background-size: cover;
+	background-attachment: fixed;
+	background-color: #464444;
+}
+.galerija{
+	background: url("galerija.jpg") no-repeat;
+	background-size: cover;
+	background-attachment: fixed;
+	background-color: #464444;
+}
+.kontakt{
+	background: url("kontakt.jpg") no-repeat;
+	background-size: cover;
+	background-attachment: fixed;
+	background-color: #464444;
+}
+.autor{
+	background: url("autor.jpg") no-repeat;
+	background-size: cover;
+	background-attachment: fixed;
+	background-color: #464444;
+}
+.naslov, #pomeraj{
+	width: 100%;
+	height: 200px;
+	text-align: center;
+	color: #FFF;
+}
+.naslov h1{
+	position: relative;
+	bottom: 500px;
+	text-transform: uppercase;
+	font-size: 500%;
+	animation: slide-in-down;
+	animation-duration: 2s;
+	transition-timing-function: linear;
+	animation-fill-mode: forwards;
+}
+@keyframes slide-in-down{
+	0% {bottom: 500px;}
+	100% {bottom: 0px;}
+}
+.naslov h2{
+	font-size: 200%;
+	animation: fade-in;
+	animation-duration: 3s;
+	transition-timing-function: linear;
+	animation-delay: 2.5s;
+	animation-fill-mode: forwards;
+	opacity: 0;
+}
+@keyframes fade-in{
+	0% {opacity: 0;}
+	100% {opacity: 1;}
+}
+.pocetak img{
+	width: 11%; 
+	height: 50%;
+}
+header{
+	width: 100%;
+	background-color: #04074E;
+	height: 80px;
+	position: fixed;
+	z-index: 1;
+	display: flex;
+	align-items: center;
+	justify-content: space-around;
+}
+.pocetak a, nav .list a{
+	color: #FFF;
+}
+nav .list a:hover, .pocetak a:hover{
+	color: #EB1B11;
+	transition: 0.5s;
+}
+.pocetak{
+	width: 25%;
+	font-size: 300%;
+	height: 100%;
+	display: flex;
+	align-items: center;
+	transform: scale(1);
+	transition: 0.5s;
+	transition-timing-function: linear;
+	flex-wrap: nowrap;
+}
+.pocetak a{
+	color: #FFF;
+	transition: 0.5s;
+	transition-timing-function: linear;
+}
+nav{
+	height: 25%;
+	font-size: 130%;
+	width: 60%;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+}
+.list{
+	transform: scale(1);
+	transition: 0.5s;
+	transition-timing-function: linear;
+}
+.list a{
+	color: #FFF;
+	transition: 0.5s;
+	transition-timing-function: linear;
+}
+.aktiv a{
+	color: #EB1B11;
+}
+.kliner{
+	clear: both;
+}
+footer{
+	height: 80px;
+	background-color: #04074E;
+	padding-top: 1.5%;
+}
+.crveni{
+	background-color: #EB1B11;
+	color: #FFF;
+}
+.beli{
+	background-color: #FFF;
+	color: #EB1B11;
+}
+.tekst1{
+	width: 60%;
+	height: 35%;
+	font-size: 140%;
+	display: flex;
+	align-items: center;
+	flex-direction: column;
+	justify-content: center;
+}
+a{
+	text-decoration: none;
+	color: #FFF
+}
+.mrkela{
+	height: 27%;
+}
+.miloje{
+	height: 80%;
+}
+.silja{
+	height: 17%
+}
+.uvodni{
+	height: 50%;
+	font-size: 500%;
+	text-transform: uppercase;
+}
+.omot1 img{
+	width: 35%;
+	height: 100%;
+}
+.formacija{
+	height: 95% !important;
+}
+.omot2{ 
+	height: 900px;
+	width: 100%;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-evenly;
+	background: url("odslika.jpg") no-repeat;
+	background-size: cover;
+	background-color: #181717;
+	background-blend-mode: multiply;
+}
+.omot2 h1{
+	font-size: 500%;
+	color: #FFF;
+	text-align: center;
+}
+.kontejner{
+	width: 25%;
+	height: 100%;
+	background-color: #EB1B11;
+	color: #FFF;
+	text-align: center;
+	display: flex;
+	justify-content: space-evenly;
+	align-items: center;
+	flex-direction: column;
+}
+.kontejner h1{
+	font-size: 200%;
+	text-transform: uppercase;
+}
+.tab{
+	height: 40%;
+	width: 100%;
+}
+.prozor{
+	width: 100%;
+	height: 60%;
+}
+.prozor img{
+	width: 100%;
+	height: 100%;
+}
+.socijalne{
+	height: 45%;
+	width: 40%;
+	margin: 0% auto;
+	display: flex;
+	justify-content: space-evenly;
+	align-items: center;
+}
+.ikon{
+	transform: scale(1);
+	transition: 0.5s;
+	transition-timing-function: linear;
+}
+.socijalne i{
+	font-size: 150%;
+	color: #FFF;
+	transition: 0.5s;
+	transition-timing-function: linear;
+}
+.socijalne i:hover{
+	color: #EB1B11;
+	transition: 0.5s;
+}
+.horizontala{
+	height: 30%;
+	width: 100%;
+	display: flex;
+	justify-content: space-evenly;
+}
+footer hr{
+	color: white;
+	width: 40%;
+	margin: 0% auto;
+}
+footer p{
+	text-align: center;
+	color: #FFF;
+	margin-top: 0.8%;
+	font-size: 120%;
+}
+#statistika, #galerija, #kontakt, #autor{
+	width: 100%;
+	background-color: #EB1B11;
+	color: #FFF;
+}
+#galerija{
+	height: 1000px;
+}
+#autor{
+	height: 600px;
+	display: flex;
+	align-items: center;
+	justify-content: space-evenly;
+}
+.kontejner:hover{
+	transition: 0.5s;
+	transition-timing-function: linear;
+}
+.pocetak:hover{
+	transition: 0.5s;
+	transition-timing-function: linear;
+}
+.list:hover, .ikon:hover{
+	transition: 0.5s;
+	transition-timing-function: linear;
+}
+#slika{
+	width: 40%;
+	height: 67%;
+	box-shadow: 0px 0px 20px #000;
+}
+#slika img{
+	width: 100%;
+	height: 100%;
+}
+#biografija{
+	background-color: #FFF;
+	color: #EB1B11;
+	box-shadow: 0px 0px 20px #000;
+	width: 40%;
+	height: 67%;
+	font-size: 150%;
+	text-align: justify;
+	display: flex;
+	align-items: center;
+	padding: 2%;
+}
+#karijera{
+	width: 100%;
+	height: 5200px;
+	text-align: center;
+	background-color: #EB1B11;
+}
+#tekst2 .plavo p{
+	text-align: center;
+}
+#kontakt{
+	width: 100%;
+	height: 600px;
+	background-color: #EB1B11;
+	display: flex;
+	align-items: center;
+	justify-content: space-evenly;
+}
+#kontaktiranje, form{
+	width: 40%;
+	display: flex;
+	justify-content: space-evenly;
+	flex-direction: column;
+}
+ul{
+	list-style-type: none;
+}
+#kontaktiranje{
+	align-items: flex-start;
+	font-size: 150%;
+	background-color: #FFF;
+	box-shadow: 0px 0px 20px #000;
+	color: #EB1B11;
+	padding: 2%;
+	height: 80%;
+}
+form{
+	align-items: center;
+	height: 80%;
+}
+input{
+	height: 8%;
+	width: 80%;
+	border: 2px solid #000;
+}
+textarea{
+	height: 50%;
+	width: 80%;
+	border: 2px solid #000;
+}
+.nabraj a{
+	color: #EB1B11;
+	transition: 0.5s;
+	transition-timing-function: linear;
+}
+.nabraj a:hover{
+	color: #04074E;
+	transition: 0.5s;
+	transition-timing-function: linear;
+}
+.dugme{
+	width: 20%;
+	height: 100%;
+	color: #EB1B11;
+	background-color: #FFF;
+}
+.dugme:hover{
+	background-color: #04074E;
+}
+#tekst2{
+	width: 90%;
+	height: 5200px;
+	font-size: 150%;
+	background-color: #FFF;
+	color: #EB1B11;
+	box-shadow: 0px 0px 20px #000;
+	margin: 0px auto;
+	padding: 3%;
+}
+#tekst2 p{
+	text-align: justify;
+}
+#karijera h1{
+	font-size: 300%;
+	color: #EB1B11;
+	text-transform: uppercase;
+}
+.plavo{
+	color: #04074E;
+}
+#karijera h2{
+	font-size: 140%;
+	color: #EB1B11;
+	text-transform: uppercase;
+}
+#tekst2 hr{
+	color: #EB1B11;
+	width: 100%;
+	border-top: 3px dashed;
+}
+#statistika{
+	height: 800px;
+	width: 100%;
+	background-color: #EB1B11;
+	color: #FFF;
+}
+#goluvi{
+	width: 100%;
+	background-color: #EB1B11;
+	height: 140px;
+	display: flex;
+	align-items: center;
+	justify-content: flex-end;
+	flex-direction: column;
+}
+#goluvi h1{
+	text-align: center;
+	font-size: 500%;
+	color: #FFF;
+	text-transform: uppercase;
+}
+
+#galerija{
+	width: 100%;
+	height: 1300px;
+	background-color: #EB1B11;
+	color: #FFF;
+	display: flex;
+	justify-content: space-evenly;
+	align-items: center;
+	flex-direction: column;
+}
+.traka{
+	width: 100%;
+	height: 20%;
+	display: flex;
+	justify-content: space-evenly;
+	align-items: center;
+}
+.traka img{
+	height: 100%;
+}
+#galerija img{
+}
+#galerija img:hover{
+}
+.suzena{
+	height: 12%;
+}
+#galerija h1{
+	text-align: center;
+	color: #FFF;
+	text-transform: uppercase;
+	font-size: 500%;
+}
+#video{
+	width: 100%;
+	height: 850px;
+	background-color: #EB1B11;
+}
+#video h1{
+	font-size: 500%;
+	text-align: center;
+	color: #FFF;
+	font-weight: bold;
+	text-transform: uppercase;
+}
+#video h2{
+	font-size: 200%;
+	text-align: center;
+	color: #FFF;
+	font-weight: bold;
+}
+.horizontala2, .horizontala3{
+	display: flex;
+	justify-content: space-evenly;
+	align-items: center;
+	width: 100%;
+}
+.horizontala2{
+	height: 4%;
+}
+.horizontala3{
+	height: 4%;
+}
+.horizontala2 img, .horizontala3 img{
+	height: 100%;
+}
+#statistika{
+	width: 100%;
+	height: 1000px;
+	background-color: #EB1B11;
+	color: #FFF;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+#statistika table{
+	width: 100%;
+	height: 100%;
+	background-color: #FFF;
+	color: #EB1B11;
+	border: 3px solid #04074E;
+	border-collapse: collapse;
+	text-align: center;
+	box-shadow: 0px 0px 20px #000;
+}
+#statistika tr, #statistika td{
+	border: 3px solid #04074E;
+}
+#tabela{
+	height: 80%;
+	width: 80%;
+}
+#trofeji{
+	height: 800px;
+	background-color: #EB1B11;
+	color: #FFF;
+	font-size: 140%;
+	padding: 0% 3% 0% 3%;
+}
+#trofeji{
+	height: 900px;
+	display: flex;
+	justify-content: center;
+	flex-direction: column;
+}
+
+#pojedinacno{
+	display: flex;
+	justify-content: flex-start;
+	flex-direction: column;
+	height: 200px;
+}
+#ekipno{
+	display: flex;
+	justify-content: center;
+	flex-direction: column;
+	height: 500px;
+}
+#trofeji hr{
+	width: 100%;
+	color: #FFF;
+	border-top: 3px solid;
+}
+#trofeji h1{
+	font-size: 350%;
+	text-align: center;
+}
+#trofeji h2{
+	font-size: 150%;
+}
+#repka{
+	width: 100%;
+	height: 300px;
+	color: #FFF;
+	background-color: #EB1B11;
+	display: flex;
+	justify-content: space-evenly;
+	align-items: center;
+}
+#tabela2{
+	width: 20%;
+	height: 80%;
+}
+#repka table{
+	width: 100%;
+	height: 100%;
+	background-color: #FFF;
+	color: #EB1B11;
+	border: 3px solid #04074E;
+	border-collapse: collapse;
+	text-align: center;
+	box-shadow: 0px 0px 20px #000;
+}
+#repka tr, #repka td{
+	border: 3px solid #04074E;
+}
+#repka h1{
+	font-size: 200%;
+}
+#dugmad{
+	display: flex;
+	align-items: center;
+	flex-direction: row !important;
+	height: 10%;
+	width: 100%;
+	justify-content: space-evenly;
+}
+	
+	
+
+	
+	
+	
+	
+	
+	
+
+
+	
+
+
+ 

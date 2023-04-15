@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0">
+	<channel>
+		<title>Vesti</title>
+		<link>https://savadivljak.000webhostapp.com/index.html</link>
+		<description>Sve vesti o MArku Gobeljiću. </description>
+		<item>
+			<title>Nova vest! </title>
+			<link>https://savadivljak.000webhostapp.com/index.html</link>
+			<description>Marko Gobeljić dao gol protiv Novog Pazara! </description>
+		</item>
+	</channel>
+</rss>
