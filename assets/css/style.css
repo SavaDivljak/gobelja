@@ -4,6 +4,9 @@
 	box-sizing: border-box;
 	font-family: 'PT Sans', sans-serif;
 }
+p, h1{
+	color: #EEE;
+}
 .pozadina, header, footer{
 	width: 100%;
 }
@@ -107,9 +110,9 @@
 	width: 11%; 
 	height: 50%;
 }
-header{
+header {
 	width: 100%;
-	background-color: #04074E;
+	background-color: #041562;
 	height: 80px;
 	position: fixed;
 	z-index: 1;
@@ -118,10 +121,10 @@ header{
 	justify-content: space-around;
 }
 .pocetak a, nav .list a{
-	color: #FFF;
+	color: #EEE;
 }
 nav .list a:hover, .pocetak a:hover{
-	color: #EB1B11;
+	color: #DA1212;
 	transition: 0.5s;
 }
 .pocetak{
@@ -136,7 +139,7 @@ nav .list a:hover, .pocetak a:hover{
 	flex-wrap: nowrap;
 }
 .pocetak a{
-	color: #FFF;
+	color: #EEE;
 	transition: 0.5s;
 	transition-timing-function: linear;
 }
@@ -154,12 +157,12 @@ nav{
 	transition-timing-function: linear;
 }
 .list a{
-	color: #FFF;
+	color: #EEE;
 	transition: 0.5s;
 	transition-timing-function: linear;
 }
-.aktiv a{
-	color: #EB1B11;
+.aktiv a {
+	color: #DA1212;
 }
 .kliner{
 	clear: both;
@@ -169,12 +172,12 @@ footer{
 	background-color: #04074E;
 	padding-top: 1.5%;
 }
-.crveni{
-	background-color: #EB1B11;
+.crveni {
+	background-color: #DA1212;
 	color: #FFF;
 }
-.beli{
-	background-color: #FFF;
+.beli {
+	background-color: #DA1212;
 	color: #EB1B11;
 }
 .tekst1{
